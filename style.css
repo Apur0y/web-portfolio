@@ -1,0 +1,138 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 13%;
+   
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+
+}
+nav ul li a{
+    text-decoration: none;
+    /* font-family: "Open Sans", sans-serif; */
+  color: black;
+  
+
+}
+.hireBtn{
+    background-color: rgb(247, 107, 0);
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 2px;
+    
+}
+#maryr{
+    color:rgb(247, 107, 0); ;
+}
+.dark-1{
+    color: rgba(71, 71, 71, 1);
+}
+.dark-2{
+    color: rgba(71, 71, 71, 1);
+    
+}
+.banner-greetings{
+                font-size: 30px;
+                font-weight: 600;
+}
+.banner{
+        display: flex;
+}
+.banner-contain{
+    margin: 5% 13%;
+
+}
+#hardy-img{
+    height: 450px;
+    margin-right: 3%;
+}
+header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 60px, 600px;
+    background-position-x: 30px, 940px;
+    
+
+}
+.banner-title{
+    font-size: 50px;
+    margin: 10px 0px;
+}
+.banner-description{
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 20px;
+}
+#contact{
+    background-color: white;
+    color:rgba(253, 110, 10, 1) ;
+    border: 1px solid rgba(253, 110, 10, 1);
+}
+.about{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.about-container{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgb(255, 244, 225);
+    margin: 90px;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+   gap: 75px;
+   
+}
+.about-list{
+    color: rgba(71, 71, 71, 1);
+    text-align: center;
+}
+.value{
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+   
+}
+.section-tile{
+   margin-bottom: 25px;
+   font-size: 23px;
+}
+.section-description{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
